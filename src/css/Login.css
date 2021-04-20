@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{margin: 0;padding: 0;}
+
+.containerPrincipal {
+ background: beige;
+    position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      
+     
+      border-radius: 10%;
+      padding: 40px;
+      background-color: white;
+  }
+  
+  .containerLogin{
+    text-align: center;
+    
+  }
+
+  img{
+    
+    width: 200px;
+  }
+
+  .cosa{
+    height: 100% !important;
+    background-color: blue;
+    
+  }
+
+ 
+
+.center {
+  font-family: 'Raleway', sans-serif;
+  background-image: linear-gradient(to right top, #2902a4, #5a25b4, #7e42c5, #9e5ed6, #bd7ce7, #aa92f5, #9aa5fd, #92b6ff, #58bdf9, #0dc0e7, #00c1ca, #3dbea9);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.containerPrincipal h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.form-item {
+  font-family: 'Raleway', sans-serif;
+  padding: 5px;
+  margin-bottom: 2rem;
+  height: 30px;
+  width: 16rem;
+  border: 1px solid grey;
+}
+
+.form-button {
+  font-family: 'Raleway', sans-serif;
+  height: 35px;
+  color: #fff;
+  background-color: #1abc9c;
+  border: none;
+  letter-spacing: 0.2rem;
+  transition: 0.3s opacity ease;
+  cursor: pointer;
+}
+.form-submit:hover {
+  opacity: 0.6;
+}
